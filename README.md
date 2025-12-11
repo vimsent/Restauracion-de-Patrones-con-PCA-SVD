@@ -1,10 +1,10 @@
 # Restauración de Patrones con PCA y SVD
 
-Esta tarea de Computacón Científica implementa técnicas de **Análisis de Componentes Principales (PCA)** y **Descomposición en Valores Singulares (SVD)** para la restauración y reconocimiento de patrones digitales (imágenes). El objetivo principal es reconstruir o "limpiar" imágenes que presentan ruido o datos faltantes, utilizando un modelo estadístico pre-calculado.
+Esta tarea de Computacón Científica implementa técnicas de **Análisis de Componentes Principales (PCA)** y **Descomposición en Valores Singulares (SVD)** para la restauración y reconocimiento de patrones digitales (imágenes). El objetivo principal es reconstruir o "limpiar" imágenes que presentan ruido o datos faltantes, utilizando un modelo estadístico precalculado.
 
 ## Descripción
 
-La restauración de imágenes mediante PCA/SVD se basa en la proyección de los datos (imágenes ruidosas) sobre un subespacio de menor dimensión generado a partir de patrones limpios. Al reconstruir la imagen utilizando solo los componentes principales más significativos, se preserva la estructura esencial del patrón y se descarta el ruido, el cual suele residir en los componentes de menor varianza.
+La restauración de imágenes mediante PCA/SVD se basa en la proyección de los datos (imágenes ruidosas) sobre un subespacio de menor dimensión generado a partir de patrones limpios. Al reconstruir la imagen usando solo los componentes principales más significativos, se preserva la estructura esencial del patrón y se descarta el ruido, el cual suele residir en los componentes de menor varianza.
 
 Este repositorio contiene el código fuente en Python (Jupyter Notebook) para realizar este proceso, junto con los archivos de datos necesarios con los parámetros del modelo entrenado.
 
